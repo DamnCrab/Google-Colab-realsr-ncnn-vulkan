@@ -1,2 +1,17 @@
 # Google-Colab-realsr-ncnn-vulkan
-"<a href=\"https://colab.research.google.com/github/DamnCrab/Google-Colab-realsr-ncnn-vulkan/blob/master/Untitled0.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+感谢nihui大佬的项目
+https://github.com/nihui/realsr-ncnn-vulkan
+# 本文为基于Google Colab的白嫖显卡代码 （快乐）
+
+需要做的事情：
+
+上传视频至左侧文件目录（建议Google Drive上传，直接上传会有些慢）
+找到视频转图片 修改视频文件名（懒得找就把文件名改成1.mp4）
+在输出视频信息的地方查看视频的帧率 在最后一行代码改成正确的帧率
+注意：
+
+视频转图片会占用巨大体积，建议长视频分割处理
+切勿打开temp及temp2文件夹，会造成浏览器卡死
+请国内用户选择稳定的上网方式，掉线容易导致运行失败
+侧栏文件的第一行返回上级目录不要手贱
+视频建议只保留一个视频轨且为mp4格式，代码并未对音频轨进行任何适配，输出的视频也无音频轨
